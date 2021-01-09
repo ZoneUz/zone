@@ -7,9 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'zone\\config\\app' => $baseDir . '/bar/config/app.php',
-    'zone\\config\\database' => $baseDir . '/bar/config/database.php',
-    'zone\\controller\\siteController' => $baseDir . '/bar/controller/siteController.php',
-    'zone\\session\\config' => $baseDir . '/app/session/config.php',
-    'zone\\session\\datas' => $baseDir . '/app/session/datas.php',
 );

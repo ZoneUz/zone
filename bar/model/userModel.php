@@ -1,11 +1,13 @@
 <?php
 
+
 namespace zone\model;
+
 
 use zone\InterfaceModel\InterfaceModel;
 
-class actionModel implements InterfaceModel{
-
+class userModel implements InterfaceModel
+{
     private $tableName = "action";
     /**
      * @inheritDoc

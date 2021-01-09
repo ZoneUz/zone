@@ -1,10 +1,10 @@
 <?php
 
 
-namespace zone\config;
+namespace zone\Config;
 
 
-class app
+class App
 {
 
 }

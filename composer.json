@@ -9,6 +9,9 @@
     }
   ],
   "require": {
+    "php" : ">=7.3"
+  },
+  "require-dev": {
     "thingengineer/mysqli-database-class": "dev-master"
   },
   "autoload": {

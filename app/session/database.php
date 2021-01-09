@@ -4,7 +4,7 @@
 namespace zone\session;
 
 
-class datas extends config
+class database extends config
 {
 
 }
