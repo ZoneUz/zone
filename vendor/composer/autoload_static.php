@@ -23,11 +23,17 @@ class ComposerStaticInit3ac69aec6c3a6645d5788c803a18c390
         'zone\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
+            1 => __DIR__ . '/../..' . '/bar',
         ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'zone\\config\\app' => __DIR__ . '/../..' . '/bar/config/app.php',
+        'zone\\config\\database' => __DIR__ . '/../..' . '/bar/config/database.php',
+        'zone\\controller\\siteController' => __DIR__ . '/../..' . '/bar/controller/siteController.php',
+        'zone\\session\\config' => __DIR__ . '/../..' . '/app/session/config.php',
+        'zone\\session\\datas' => __DIR__ . '/../..' . '/app/session/datas.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
