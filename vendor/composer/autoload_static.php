@@ -6,6 +6,12 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit3ac69aec6c3a6645d5788c803a18c390
 {
+    public static $files = array (
+        '71ecd0286a4e74fd8732297fb587023c' => __DIR__ . '/..' . '/thingengineer/mysqli-database-class/MysqliDb.php',
+        'd383f1ec7b1e54a09cb53eb6fcf751e0' => __DIR__ . '/..' . '/thingengineer/mysqli-database-class/dbObject.php',
+        'acd94bcfbec64072e5fb1a9eb4106fc8' => __DIR__ . '/..' . '/mysqlLb',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'z' => 
         array (
@@ -22,8 +28,6 @@ class ComposerStaticInit3ac69aec6c3a6645d5788c803a18c390
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'zone\\session\\config' => __DIR__ . '/../..' . '/app/session/config.php',
-        'zone\\session\\datas' => __DIR__ . '/../..' . '/app/session/datas.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

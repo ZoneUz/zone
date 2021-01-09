@@ -1,24 +1,34 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'd19073a5cb8d37dadfb830939a5da38c8d1539a7',
     'name' => 'vendor_name/zone',
   ),
   'versions' => 
   array (
+    'thingengineer/mysqli-database-class' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+        0 => '9999999-dev',
+      ),
+      'reference' => '16564ba0717fad64617a1ce4a8d3f9b90e68c7c2',
+    ),
     'vendor_name/zone' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'd19073a5cb8d37dadfb830939a5da38c8d1539a7',
     ),
   ),
 );

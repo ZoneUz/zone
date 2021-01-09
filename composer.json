@@ -9,10 +9,12 @@
     }
   ],
   "require": {
+    "thingengineer/mysqli-database-class": "dev-master"
   },
   "autoload": {
     "psr-4": {
       "zone\\" : "app"
-    }
+    },
+    "files": ["vendor/mysqlLb"]
   }
 }
